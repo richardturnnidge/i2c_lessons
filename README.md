@@ -7,7 +7,8 @@ Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct
 
 ![](./io_uext2.png)
 
-
+See the community docs for further pinout reference:
+https://agonconsole8.github.io/agon-docs/GPIO/
 
 <B>REAL TIME CLOCK modules</B>
 
