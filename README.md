@@ -5,22 +5,22 @@ This folder contains binaries and code for all lessons on i2c.
 
 This is for RTC modules based on the DS 3231 chip.
 
-<i>mos_setrtc.bin</i>
+<b>mos_setrtc.bin</b>
 
 Place this binary in your SD card's BIN folder.
 Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
 Or, call it whenever you want with:
-*mos_setrtc
+<i>*mos_setrtc</i>
 
-<i>settime.bin</i>
+<b>settime.bin</b>
 
 Place this binary in your SD card's BIN folder.
 Use the command:
 
-*setttime seconds minutes hours day date month year
+<i>*setttime seconds minutes hours day date month year</i>
 
 eg: 
-*settime 0 21 17 1 31 12 24
+<i>*settime 0 21 17 1 31 12 24</i>
 
 For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
