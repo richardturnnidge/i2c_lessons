@@ -5,13 +5,13 @@ This folder contains binaries and code for all lessons on i2c.
 
 This is for RTC modules based on the DS 3231 chip.
 
-mos_setrtc.bin
+<i>mos_setrtc.bin</i>
 
 Place this binary in your SD card's BIN folder.
 Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
 
 
-settime.bin
+<i>settime.bin</i>
 
 Place this binary in your SD card's BIN folder.
 Use the command:
