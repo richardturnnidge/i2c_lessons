@@ -12,18 +12,12 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 <B>REAL TIME CLOCK modules</B>
 
-This is for RTC modules based on the DS 3231 chip.
-
-<b>mos_setrtc.bin</b>
-
-Place this binary in your SD card's BIN folder.
-Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
-Or, call it whenever you want with:
-<i>*mos_setrtc</i>
+This is desinged for RTC modules based on the DS 3231 chip.
 
 <b>settime.bin</b>
 
-Place this binary in your SD card's BIN folder.
+Place this binary in your SD card's BIN folder. This command will allow you to set the real time store on the DS3231 module. With an onboard battery, this will keep the correct time, even when your Agon is powered down.
+
 Use the command:
 
 <i>*setttime seconds minutes hours day date month year</i>
@@ -34,6 +28,19 @@ eg:
 For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
 (You don't need to type the '*', that is just to indicate the command prompt)
+
+
+
+<b>mos_setrtc.bin</b>
+
+This command is to set the Agon's internal clock to the time stored on your RTC module. So, after the Agon has booted, for example, you can automatically set the internal clock to be the correct time.
+
+Place this binary in your SD card's BIN folder.
+Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
+Or, call it whenever you want with:
+<i>*mos_setrtc</i>
+
+
 
 ![](./agontime.jpg)
 ![](./rtc%20module.jpg)
