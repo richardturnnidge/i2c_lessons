@@ -38,6 +38,7 @@ This command is to set the Agon's internal clock to the time stored on your RTC 
 Place this binary in your SD card's BIN folder.
 Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
 Or, call it whenever you want with:
+
 <i>*mos_setrtc</i>
 
 You can check from MOS that the correct time has been set, by using the built-in command:
