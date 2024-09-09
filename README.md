@@ -16,7 +16,7 @@ settime.bin
 Place this binary in your SD card's BIN folder.
 Use the command:
 
-setttime <seconds> <minutes> <hours> <day> <date> <month> <year>
+setttime seconds minutes hours day date month year
 
 eg: 
 settime 0 21 17 1 31 12 24
