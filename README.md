@@ -5,7 +5,7 @@ i2c requires 4 wires to work. 3.3v and GND are obvious, but in addition there is
 
 Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct pins on any othere Agon machine's GPIO bus.
 
-![](./io_uext.png)
+![](./io_uext2.png)
 
 
 
