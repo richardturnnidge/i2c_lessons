@@ -12,7 +12,7 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 <B>REAL TIME CLOCK modules</B>
 
-This code has been written for RTC modules based on the DS 3231 chip.
+This code has been written for RTC modules based on the DS 3231 chip, and also assumes a bus address of $68.
 
 <b>settime.bin</b>
 
