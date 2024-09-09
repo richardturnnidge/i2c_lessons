@@ -25,3 +25,6 @@ eg:
 For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
 (You don't need to type the '*', that is just to indicate the command prompt)
+
+![](./agontime.jpg)
+![](./Screenshot%202024-08-30%20at%2018.05.41.png)
