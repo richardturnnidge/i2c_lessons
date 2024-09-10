@@ -16,7 +16,7 @@ This code has been written for RTC modules based on the DS 3231 chip, and also a
 
 <b>settime.bin</b>
 
-Place this binary in your SD card's BIN folder. This command will allow you to set the time stored on the DS3231 module. With an onboard battery, this will keep the correct time, even when your Agon is powered down.
+Place this binary in your SD card's MOS folder. This command will allow you to set the time stored on the DS3231 module. With an onboard battery, this will keep the correct time, even when your Agon is powered down.
 
 Use the command:
 
@@ -35,7 +35,7 @@ For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
 This command is to set the Agon's internal clock to the time stored on your RTC module. So, after the Agon has booted, for example, you can automatically set the internal clock to be the correct time.
 
-Place this binary in your SD card's BIN folder.
+Place this binary in your SD card's MOS folder.
 Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
 Or, call it whenever you want with:
 
