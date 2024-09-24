@@ -28,6 +28,8 @@ This is a 12bit digital to analog output converter.
 <B>HTU21D module</B>
 This is a temperature and humity sensor.
 
+- TO DO-
+
 <B>VEML7700 module</B>
 This is an ambient light level sensor.
 
