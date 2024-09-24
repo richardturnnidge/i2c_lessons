@@ -10,7 +10,30 @@ Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
-<B>ADC1115 modules</B>
+<B>PCF8574 module</B>
+This is an 8bit digital i/o expander.
+
+- TO DO-
+
+<B>PCF8575 module</B>
+This is a 16bit digital i/o expander.
+
+- TO DO-
+
+<B>MCP4725 module</B>
+This is a 12bit digital to analog output converter.
+
+- TO DO-
+
+<B>HTU21D module</B>
+This is a temperature and humity sensor.
+
+<B>VEML7700 module</B>
+This is an ambient light level sensor.
+
+- TO DO-
+
+<B>ADC1115 module</B>
 This is a 4 channel analog to digital converter.
 
 - TO DO-
