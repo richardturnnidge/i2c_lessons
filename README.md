@@ -1,9 +1,11 @@
 # i2c_lessons
-This folder contains binaries and code for all lessons on i2c.
+This folder contains binaries and code for all lessons on i2c. Whilst these lessons are aimed at z80 assembly language on the Agon light, the theory will be applicable to any microprocessor or computer, such as Raspberry Pi or Pico, Arduino models, and so on.
 
 i2c requires 4 wires to work. 3.3v and GND are obvious, but in addition there is SDA and SCL to connect - a data line and a clock signal.
 
 Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct pins on any other Agon machine's GPIO bus.
+
+You can connect many different i2c devices at the same time, by linking from one to the next, as long as each device has a diffrent bus address. Some devices have fixed addresses, some can be set, or modified within a range (usually by jumpers or solder pads).
 
 ![](./io_uext2.png)
 
@@ -12,37 +14,50 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 <B>PCF8574 module</B>
 This is an 8bit digital i/o expander.
+Default bus address: $20-28
 
 - TO DO-
 
 <B>PCF8575 module</B>
 This is a 16bit digital i/o expander.
+Default bus address: $20-28
 
 - TO DO-
 
 <B>MCP4725 module</B>
 This is a 12bit digital to analog output converter.
+Default bus address: $62-61 ?
 
 - TO DO-
 
 <B>HTU21D module</B>
 This is a temperature and humity sensor.
+Default bus address: $40
 
 - TO DO-
 
 <B>VEML7700 module</B>
 This is an ambient light level sensor.
+Default bus address: $10
 
 - TO DO-
 
 <B>ADC1115 module</B>
 This is a 4 channel analog to digital converter.
+Default bus address: $48-4B
 
 - TO DO-
 
-<B>REAL TIME CLOCK modules</B>
+<B>Nintendo WII Nunchuck controller</B>
+This is controller has multiple sensors and buttons for user input.
+Default bus address: $52
 
-This code has been written for RTC modules based on the DS 3231 chip, and also assumes a bus address of $68.
+- TO DO-
+
+<B>DS3231 REAL TIME CLOCK modules</B>
+Default bus address: $68
+
+This code has been written for RTC modules based on the DS3231 chip, and also assumes a bus address of $68.
 
 <b>settime.bin</b>
 
