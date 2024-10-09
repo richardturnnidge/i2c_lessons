@@ -12,14 +12,14 @@ You can connect many different i2c devices at the same time, by linking from one
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
-<B>PCF8574 module</B>
-This is an 8bit digital i/o expander.
 
 <B>i2ctest.bin</B>
 Place this binary in your MOS directory and you can call it at any timee by typing:
 <i>i2ctest</i>.
 It will list the addresses of all modules attached to the i2c bus.
 
+<B>PCF8574 module</B>
+This is an 8bit digital i/o expander.
 
 Default bus address: $20-28.
 
