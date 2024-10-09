@@ -15,8 +15,7 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 <B>PCF8574 module</B>
 This is an 8bit digital i/o expander.
 Default bus address: $20-28
-
-- TO DO-
+The sample code configures the module, then sends a series of bytes to change the output of 8 LEDs.
 
 <B>PCF8575 module</B>
 This is a 16bit digital i/o expander.
