@@ -14,6 +14,13 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 <B>PCF8574 module</B>
 This is an 8bit digital i/o expander.
+
+<B>i2ctest.bin</B>
+Place this binary in your MOS directory and you can call it at any timee by typing:
+<i>i2ctest</i>.
+It will list the addresses of all modules attached to the i2c bus.
+
+
 Default bus address: $20-28.
 
 The sample code configures the module, then sends a series of bytes to change the output of 8 LEDs.
