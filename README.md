@@ -14,7 +14,7 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 
 <B>i2ctest.bin</B>
-Place this binary in your MOS directory and you can call it at any timee by typing:
+Place this binary in your MOS directory and you can call it at any time by typing:
 <i>i2ctest</i>.
 It will list the addresses of all modules attached to the i2c bus.
 
