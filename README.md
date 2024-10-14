@@ -1,6 +1,11 @@
 # i2c_lessons
 This folder contains binaries and code for all lessons on i2c. Whilst these lessons are aimed at z80 assembly language on the Agon light, the theory will be applicable to any microprocessor or computer, such as Raspberry Pi or Pico, Arduino models, and so on.
 
+See accompanying videos at:
+
+https://www.youtube.com/watch?v=WQATfp2rR_Y&list=PL-WZxPxo1iaBRPJj_mS7feUh_gO6pn-Qe&index=3
+
+
 i2c requires 4 wires to work. 3.3v and GND are obvious, but in addition there is SDA and SCL to connect - a data line and a clock signal.
 
 Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct pins on any other Agon machine's GPIO bus.
