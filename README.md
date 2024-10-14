@@ -29,7 +29,12 @@ The sample code configures the module, then sends a series of bytes to change th
 This is a 16bit digital i/o expander.
 Default bus address: $20-28
 
-- TO DO-
+Demonstrates reading button inputs and LED outputs.
+
+<B>HT16K33 LED matrix module</B>
+This is a 8x8 LED matrix.
+Default bus address: $70-$77
+
 
 <B>MCP4725 module</B>
 This is a 12bit digital to analog output converter.
@@ -60,6 +65,10 @@ This is controller has multiple sensors and buttons for user input.
 Default bus address: $52
 
 - TO DO-
+
+
+
+
 
 <B>DS3231 REAL TIME CLOCK modules</B>
 Default bus address: $68
