@@ -32,7 +32,13 @@ Default bus address: $20-28
 Demonstrates reading button inputs and LED outputs.
 
 <B>HT16K33 LED matrix module</B>
+
 This is a 8x8 LED matrix.
+
+Code allows the creation of a buffer to send data to the display. 
+
+Two demo routines, one to send graphical characters to the display, and one to plot/clear random pixels.
+
 Default bus address: $70-$77
 
 
