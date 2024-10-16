@@ -22,9 +22,9 @@ i2c_address:        equ $48           ; either: $48, $49, $4A or $4B
 ADS_input_channel:  .db 01000000b     ; either: 01000000b, 01010000b, 01100000b, 01110000b for A0-A3 single inputs
 
 ADS_channel0:       equ 01000000b     ; defined here for use later is needed
-ADS_channel1:       equ 01100000b     ; these values are for sinlge channel reads
-ADS_channel2:       equ 01110000b
-ADS_channel3:       equ 01000000b
+ADS_channel1:       equ 01010000b     ; these values are for sinlge channel reads
+ADS_channel2:       equ 01100000b
+ADS_channel3:       equ 01110000b
 
 ADS_adc_gain:       equ 00000010b     ; this is the range of the read result
                                       ; assuming 3.3v   value is from $00-$XX (MSB)
@@ -65,22 +65,13 @@ start_here:
     ld a, ADS_channel0
     ld (ADS_input_channel), a       ; set the input channel to use
 
-
-    ld a, 00001000b               
-    call multiPurposeDelay          ; wait a bit so display doesn't flicker
-
     call i2c_sendAdcConfig          ; send config settings to ADC1115
-    
+
 LOOP_HERE:
     MOSCALL $1E                     ; get IX pointer to keyvals, currently pressed keys
     ld a, (ix + $0E)    
     bit 0, a                        ; check for ESC key pressed
     jp nz, EXIT_HERE                ; exit if pressed
-
-;     ld a, 00001000b               
-;     call multiPurposeDelay          ; wait a bit so display doesn't flicker
-
-;     call i2c_sendAdcConfig          ; send config settings to ADC1115
 
     ld a, 00000100b                
     call multiPurposeDelay          ; wait a bit or results tend to be incorrect
