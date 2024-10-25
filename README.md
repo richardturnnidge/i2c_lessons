@@ -112,15 +112,13 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 ### i2ctest.bin
 Place this binary in your MOS directory and you can call it at any time by typing:
-<i>i2ctest</i>.
+<B><i>i2ctest</i>.</B>
 It will list the addresses of all modules attached to the i2c bus.
 
 
 
 
-- TO DO-
-
-<B>Nintendo WII Nunchuck controller</B>
+### Nintendo WII Nunchuck controller
 This is controller has multiple sensors and buttons for user input.
 Default bus address: $52
 
