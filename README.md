@@ -24,7 +24,7 @@ When working on a new project, you can check that the module is recognised by yo
 
 Place this binary in your MOS directory and you can call it at any time by typing:
 
-<B><i>i2ctest</i>.</B>
+<B><i>*i2ctest</i></B>
 
 It will list the addresses of all modules attached to the i2c bus.
 
