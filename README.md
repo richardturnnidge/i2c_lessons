@@ -50,20 +50,23 @@ Default bus address: $70-$77
 ## 04 i2c ADS1115 Analog input
 
 This is a 4 channel analog to digital converter.
+
 Default bus address: $48-4B
 
 
 ## 05 i2c MCP4725 analog output
 
 This is a 12bit digital to analog output converter.
+
 Default bus address: $62-61 ?
 
 
 ## 06 DS3231 real Time Clock
 
+This code has been written for RTC modules based on the DS3231 chip, including the MOD_RTC from Olimex.
+
 Default bus address: $68
 
-This code has been written for RTC modules based on the DS3231 chip, and also assumes a bus address of $68.
 
 ### settime.bin
 
