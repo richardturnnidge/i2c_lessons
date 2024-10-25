@@ -44,7 +44,7 @@ The sample code configures the module, then sends a series of bytes to change th
 ## 02 i2c pcf8575 16bit io port
 
 PCF8575 module is a 16bit digital i/o expander.
-Default bus address: $20-28
+Default bus address: $20-$27
 
 Demonstrates reading button inputs and LED outputs.
 
@@ -63,14 +63,14 @@ Default bus address: $70-$77
 
 This is a 4 channel analog to digital converter.
 
-Default bus address: $48-4B
+Default bus address: $48-$4B
 
 
 ## 05 i2c MCP4725 analog output
 
 This is a 12bit digital to analog output converter.
 
-Default bus address: $62-61 ?
+Default bus address: $62-$61
 
 
 ## 06 DS3231 real Time Clock
@@ -79,7 +79,7 @@ This code has been written for RTC modules based on the DS3231 chip, including t
 
 NOTE: The module does not know when the hour will change due to daylight saving time.
 
-Default bus address: $68
+Default bus address: $68-$6F
 
 ### clock.bin
 
