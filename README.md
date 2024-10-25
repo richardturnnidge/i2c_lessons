@@ -29,14 +29,14 @@ Default bus address: $20-28.
 The sample code configures the module, then sends a series of bytes to change the output of 8 LEDs.
 
 
-<B>02 i2c pcf8575 16bit io port</B>
+## 02 i2c pcf8575 16bit io port
 
 PCF8575 module is a 16bit digital i/o expander.
 Default bus address: $20-28
 
 Demonstrates reading button inputs and LED outputs.
 
-<B>03 i2c 8x8 LED matrix HT16K33</B>
+## 03 i2c 8x8 LED matrix HT16K33
 
 HT16K33 is an 8x8 LED matrix.
 
@@ -47,29 +47,26 @@ Two demo routines, one to send graphical characters to the display, and one to p
 Default bus address: $70-$77
 
 
-<B>04 i2c ADS1115 Analog input</B>
+## 04 i2c ADS1115 Analog input
 
 This is a 4 channel analog to digital converter.
 Default bus address: $48-4B
 
 
-<B>05 i2c MCP4725 analog output</B>
+## 05 i2c MCP4725 analog output
 
 This is a 12bit digital to analog output converter.
 Default bus address: $62-61 ?
 
 
-<B>06 RTC</B>
+## 06 DS3231 real Time Clock
 
-
-
-
-
-
-<B>DS3231 REAL TIME CLOCK modules</B>
 Default bus address: $68
 
 This code has been written for RTC modules based on the DS3231 chip, and also assumes a bus address of $68.
+
+### test
+
 
 <b>settime.bin</b>
 
