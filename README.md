@@ -1,4 +1,4 @@
-# i2c_lessons
+# i2c modules
 This folder contains binaries and code for all lessons on i2c. Whilst these lessons are aimed at z80 assembly language on the Agon light, the theory will be applicable to any microprocessor or computer, such as Raspberry Pi or Pico, Arduino models, and so on.
 
 See accompanying videos at:
@@ -16,6 +16,9 @@ You can connect many different i2c devices at the same time, by linking from one
 
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
+
+
+# The Video Lessons
 
 <B>01 i2c PCF8574 io port</B>
 
