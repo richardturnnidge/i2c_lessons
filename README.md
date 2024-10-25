@@ -17,28 +17,25 @@ You can connect many different i2c devices at the same time, by linking from one
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
+<B>01 i2c PCF8574 io port</B>
 
-<B>i2ctest.bin</B>
-Place this binary in your MOS directory and you can call it at any time by typing:
-<i>i2ctest</i>.
-It will list the addresses of all modules attached to the i2c bus.
-
-<B>PCF8574 module</B>
-This is an 8bit digital i/o expander.
+PCF8574 module is an 8bit digital i/o expander.
 
 Default bus address: $20-28.
 
 The sample code configures the module, then sends a series of bytes to change the output of 8 LEDs.
 
-<B>PCF8575 module</B>
-This is a 16bit digital i/o expander.
+
+<B>02 i2c pcf8575 16bit io port</B>
+
+PCF8575 module is a 16bit digital i/o expander.
 Default bus address: $20-28
 
 Demonstrates reading button inputs and LED outputs.
 
-<B>HT16K33 LED matrix module</B>
+<B>03 i2c 8x8 LED matrix HT16K33</B>
 
-This is a 8x8 LED matrix.
+HT16K33 is an 8x8 LED matrix.
 
 Code allows the creation of a buffer to send data to the display. 
 
@@ -47,35 +44,20 @@ Two demo routines, one to send graphical characters to the display, and one to p
 Default bus address: $70-$77
 
 
-<B>MCP4725 module</B>
-This is a 12bit digital to analog output converter.
-Default bus address: $62-61 ?
+<B>04 i2c ADS1115 Analog input</B>
 
-- TO DO-
-
-<B>HTU21D module</B>
-This is a temperature and humity sensor.
-Default bus address: $40
-
-- TO DO-
-
-<B>VEML7700 module</B>
-This is an ambient light level sensor.
-Default bus address: $10
-
-- TO DO-
-
-<B>ADC1115 module</B>
 This is a 4 channel analog to digital converter.
 Default bus address: $48-4B
 
-- TO DO-
 
-<B>Nintendo WII Nunchuck controller</B>
-This is controller has multiple sensors and buttons for user input.
-Default bus address: $52
+<B>05 i2c MCP4725 analog output</B>
 
-- TO DO-
+This is a 12bit digital to analog output converter.
+Default bus address: $62-61 ?
+
+
+<B>06 RTC</B>
+
 
 
 
@@ -120,4 +102,23 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 ![](./agontime.jpg)
 ![](./rtc%20module.jpg)
+
+# Other useful tools
+
+<B>i2ctest.bin</B>
+Place this binary in your MOS directory and you can call it at any time by typing:
+<i>i2ctest</i>.
+It will list the addresses of all modules attached to the i2c bus.
+
+
+
+
+- TO DO-
+
+<B>Nintendo WII Nunchuck controller</B>
+This is controller has multiple sensors and buttons for user input.
+Default bus address: $52
+
+- TO DO-
+
 
