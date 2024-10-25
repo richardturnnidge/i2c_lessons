@@ -79,10 +79,10 @@ Place this binary in your SD card's MOS folder. This command will allow you to s
 
 Use the command:
 
-<i>*setttime seconds minutes hours day date month year</i>
+<B><i>*setttime</B> seconds minutes hours day date month year</i>
 
 eg: 
-<i>*settime 0 21 17 1 31 12 24</i>
+<B><i>*settime</B> 0 21 17 1 31 12 24</i>
 
 For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
@@ -98,11 +98,11 @@ Place this binary in your SD card's MOS folder.
 Add the command 'mos_setrtc' to your autoexec.txt file if you want it to run after each boot.
 Or, call it whenever you want with:
 
-<i>*mos_setrtc</i>
+<B><i>*mos_setrtc</i></B>
 
 You can check from MOS that the correct time has been set, by using the built-in command:
 
-<i>*time</i>
+<B><i>*time</i></B>
 
 
 ![](./agontime.jpg)
