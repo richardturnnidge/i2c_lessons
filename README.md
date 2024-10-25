@@ -20,7 +20,7 @@ https://agonconsole8.github.io/agon-docs/GPIO/
 
 # The Video Lessons
 
-<B>01 i2c PCF8574 io port</B>
+##<B>01 i2c PCF8574 io port</B>
 
 PCF8574 module is an 8bit digital i/o expander.
 
