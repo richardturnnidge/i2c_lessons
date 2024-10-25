@@ -65,10 +65,7 @@ Default bus address: $68
 
 This code has been written for RTC modules based on the DS3231 chip, and also assumes a bus address of $68.
 
-### test
-
-
-<b>settime.bin</b>
+### settime.bin
 
 Place this binary in your SD card's MOS folder. This command will allow you to set the time stored on the DS3231 module. With an onboard battery, this will keep the correct time, even when your Agon is powered down.
 
@@ -85,7 +82,7 @@ For 5:21pm and 0 seconds, Sunday, 31st December 2024
 
 
 
-<b>mos_setrtc.bin</b>
+### mos_setrtc.bin
 
 This command is to set the Agon's internal clock to the time stored on your RTC module. So, after the Agon has booted, for example, you can automatically set the internal clock to be the correct time.
 
@@ -105,7 +102,7 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 # Other useful tools
 
-<B>i2ctest.bin</B>
+### i2ctest.bin
 Place this binary in your MOS directory and you can call it at any time by typing:
 <i>i2ctest</i>.
 It will list the addresses of all modules attached to the i2c bus.
