@@ -63,14 +63,19 @@ Default bus address: $62-61 ?
 
 ## 06 DS3231 real Time Clock
 
-This code has been written for RTC modules based on the DS3231 chip, including the MOD_RTC from Olimex.
+This code has been written for RTC modules based on the DS3231 chip, including the MOD_RTC from Olimex.  With an onboard battery, this will keep the correct time, even when your Agon is powered down. 
+
+NOTE: The module does not know when the hour will change due to daylight saving time.
 
 Default bus address: $68
 
+### clock.bin
+
+The program code is reviewed in the video to explain how to read the time and date from the module.
 
 ### settime.bin
 
-Place this binary in your SD card's MOS folder. This command will allow you to set the time stored on the DS3231 module. With an onboard battery, this will keep the correct time, even when your Agon is powered down.
+Place this binary in your SD card's MOS folder. This command will allow you to set the time stored on the DS3231 module. 
 
 Use the command:
 
