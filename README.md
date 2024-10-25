@@ -18,6 +18,16 @@ See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
 
+### i2ctest.bin
+
+When working on a new project, you can check that the module is recognised by your Agon by using a tool called i2ctest.
+
+Place this binary in your MOS directory and you can call it at any time by typing:
+<B><i>i2ctest</i>.</B>
+It will list the addresses of all modules attached to the i2c bus.
+
+
+
 # The Video Lessons
 
 ## 01 i2c PCF8574 io port
@@ -107,13 +117,6 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 ![](./agontime.jpg)
 ![](./rtc%20module.jpg)
-
-# Other useful tools
-
-### i2ctest.bin
-Place this binary in your MOS directory and you can call it at any time by typing:
-<B><i>i2ctest</i>.</B>
-It will list the addresses of all modules attached to the i2c bus.
 
 
 
