@@ -121,6 +121,11 @@ You can check from MOS that the correct time has been set, by using the built-in
 ![](./rtc%20module.jpg)
 
 
+## 07 LCD1602 LCD Display
+
+This is an LCD display controlled via an i2c connection.
+
+Default bus address: $28-$2F
 
 
 ### Nintendo WII Nunchuck controller
