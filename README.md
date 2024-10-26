@@ -127,6 +127,7 @@ This is an LCD display controlled via an i2c connection.
 
 Default bus address: $28-$2F
 
+![](./lcd_display.png)
 
 ### Nintendo WII Nunchuck controller
 This is controller has multiple sensors and buttons for user input.
