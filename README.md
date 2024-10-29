@@ -135,7 +135,7 @@ This is a 128x64 pixel oLed display controlled via an i2c connection.
 
 Default bus address: $3C, some are $78, or $7A
 
-![](./lcd_display.png)
+![](./oled.png)
 
 
 ### Nintendo WII Nunchuck controller
