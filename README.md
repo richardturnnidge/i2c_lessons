@@ -123,11 +123,20 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 ## 07 LCD1602 LCD Display
 
-This is an LCD display controlled via an i2c connection.
+This is a 2 (or 4) line 16 characater LCD display controlled via an i2c connection.
 
 Default bus address: $28-$2F
 
 ![](./lcd_display.png)
+
+## 08 SSD1306 oLed Display
+
+This is a 128x64 pixel oLed display controlled via an i2c connection.
+
+Default bus address: $3C, some are $78, or $7A
+
+![](./lcd_display.png)
+
 
 ### Nintendo WII Nunchuck controller
 This is controller has multiple sensors and buttons for user input.
