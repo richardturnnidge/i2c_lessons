@@ -145,6 +145,7 @@ This is a 2 (or 4) line 16 characater LCD display controlled via an i2c connecti
 Default bus address: $28-$2F
 
 ![](./images/lcd.png)
+![](./images/lcd2.png)
 
 <HR>
 
