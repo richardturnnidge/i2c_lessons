@@ -131,9 +131,9 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 <B><i>*time</i></B>
 
+![](./images/rtc1.png)
+![](./images/agontime.jpg)
 
-![](./agontime.jpg)
-![](./rtc%20module.jpg)
 
 <HR>
 
