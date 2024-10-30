@@ -65,6 +65,7 @@ This is a 4 channel analog to digital converter.
 
 Default bus address: $48-$4B
 
+![](./images/dac.png)
 
 ## 05 i2c MCP4725 analog output
 
