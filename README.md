@@ -133,6 +133,7 @@ You can check from MOS that the correct time has been set, by using the built-in
 
 ![](./images/rtc1.png)
 ![](./images/agontime.jpg)
+
 <i>Confirmation message at bootup</i>
 
 <HR>
