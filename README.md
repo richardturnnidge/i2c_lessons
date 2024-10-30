@@ -17,6 +17,7 @@ You can connect many different i2c devices at the same time, by linking from one
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
+<HR>
 
 ### i2ctest.bin
 
