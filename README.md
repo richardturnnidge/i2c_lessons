@@ -12,7 +12,7 @@ Either the UEXT connector on the Olimex Agon Light 2 can be used, or the correct
 
 You can connect many different i2c devices at the same time, by linking from one to the next, as long as each device has a diffrent bus address. Some devices have fixed addresses, some can be set, or modified within a range (usually by jumpers or solder pads).
 
-![](./io_uext2.png)
+![](./images/io_uext2.png)
 
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
