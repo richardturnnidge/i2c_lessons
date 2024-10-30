@@ -17,8 +17,6 @@ You can connect many different i2c devices at the same time, by linking from one
 See the community docs for further pinout reference:
 https://agonconsole8.github.io/agon-docs/GPIO/
 
-<HR>
-
 ### i2ctest.bin
 
 When working on a new project, you can check that the module is recognised by your Agon by using a tool called <i>i2ctest</I>.
@@ -41,6 +39,9 @@ Default bus address: $20-28.
 
 The sample code configures the module, then sends a series of bytes to change the output of 8 LEDs.
 
+![](./images/io8bit.png)
+
+<HR>
 
 ## 02 i2c pcf8575 16bit io port
 
@@ -48,6 +49,10 @@ PCF8575 module is a 16bit digital i/o expander.
 Default bus address: $20-$27
 
 Demonstrates reading button inputs and LED outputs.
+
+![](./images/io16bit.png)
+
+<HR>
 
 ## 03 i2c 8x8 LED matrix HT16K33
 
@@ -59,6 +64,10 @@ Two demo routines, one to send graphical characters to the display, and one to p
 
 Default bus address: $70-$77
 
+![](./images/matrix.png)
+
+<HR>
+
 
 ## 04 i2c ADS1115 Analog input
 
@@ -66,7 +75,8 @@ This is a 4 channel analog to digital converter.
 
 Default bus address: $48-$4B
 
-![](./images/dac.png)
+![](./images/adc.png)
+<HR>
 
 ## 05 i2c MCP4725 analog output
 
@@ -74,6 +84,9 @@ This is a 12bit digital to analog output converter.
 
 Default bus address: $62-$61
 
+![](./images/dac.png)
+
+<HR>
 
 ## 06 DS3231 real Time Clock
 
@@ -122,6 +135,7 @@ You can check from MOS that the correct time has been set, by using the built-in
 ![](./agontime.jpg)
 ![](./rtc%20module.jpg)
 
+<HR>
 
 ## 07 LCD1602 LCD Display
 
@@ -129,7 +143,9 @@ This is a 2 (or 4) line 16 characater LCD display controlled via an i2c connecti
 
 Default bus address: $28-$2F
 
-![](./lcd_display.png)
+![](./images/lcd.png)
+
+<HR>
 
 ## 08 SSD1306 oLed Display
 
@@ -137,8 +153,9 @@ This is a 128x64 pixel oLed display controlled via an i2c connection.
 
 Default bus address: $3C, some are $78, or $7A
 
-![](./oled.png)
+![](./images/oled.png)
 
+<HR>
 
 ### Nintendo WII Nunchuck controller
 This is controller has multiple sensors and buttons for user input.
