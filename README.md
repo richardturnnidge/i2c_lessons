@@ -153,6 +153,8 @@ Default bus address: $28-$2F
 
 This is a 128x64 pixel oLed display controlled via an i2c connection.
 
+Useful to note: The i2c module only allows sending of data, you cannot read what is in its memory. So, for text or simple graphics as per the example code, it is easy just to send what you want to draw. But, if you want to set individual pixels, draw lines, circles, etc, it needs a display buffer on the computer side, then blitz the necessary changes as required. This is a bit trickier, and I haven't included that. This is what the mainstream libraries do, by Adafruit, etc.
+
 Default bus address: $3C, some are $78, or $7A
 
 ![](./images/oled.png)
