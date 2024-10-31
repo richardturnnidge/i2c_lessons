@@ -165,6 +165,6 @@ Default bus address: $3C, some are $78, or $7A
 This is controller has multiple sensors and buttons for user input.
 Default bus address: $52
 
-- TO DO-
+![](./images/nunchuck.jpg)
 
 
